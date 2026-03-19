@@ -17,7 +17,6 @@ class ProcessGeoTools extends Process implements ConfigModule {
 			'author' => 'poljpocket',
 			'icon' => 'id-card',
 			'requires' => 'ProcessWire>=3.0.0, PHP>=8.1',
-			'permission' => 'setup-admin',
 			'page' => array(
 				'name' => 'geo-tools',
 				'parent' => 'setup',
